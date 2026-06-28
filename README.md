@@ -18,13 +18,13 @@ The other part is on most keyboard layouts I find that the key density per row t
 
 ### How?
 
-I am using the custom layout setting in the FUTO keyboard application. (I'll comment the config for anyone to try)
+I am using the custom layout setting in the FUTO keyboard application. I have also created a version for keys cafe on samsung, mainly for the flip7 that does not allow you to use custom keyboards on the cover-screen
 
 I started the design process of Cyclops with the center function keys (the centered space being where it gets its name from). I then positioned the letters according to letter frequency. The most common letters I placed in the center upper portion of the keyboard, but not at the very top. I then started placing keys around them, fanning down towards the bottom corners in order of letter frequency. Additionally, similar to the Dvorak keyboard layout, I placed the vowels in the left hand and then tried to balance them on the right hand with common consonants such as T and N.
 
 I used: https://norvig.com/mayzner.html and https://mdickens.me/typing/letter_frequency.html
 
-As for the numbers and symbols, I placed the numbers in the left hand with 1 at the top and 0 at the bottom due to 1, 2, 3 being the most common numbers. I placed the symbols in the opposite order on the right hand side with the most common brackets being at the top and exclamation mark being near the other punctuation marks. I still roughly kept the order that you would see on a normal full sized keyboard from left to right for these.
+As for the numbers and symbols, I placed the numbers in the left hand with 1 at the top due to 1, 2, 3 being the most common numbers. I placed the symbols in the opposite order on the right hand side with the most common brackets being in line with the 'e' key and exclamation mark being near the other punctuation marks.
 
 I then made a pseudo version of Cyclops for the keyboard layout analyzer and ran text that I generated from chatgpt through it in order to simulate texting and sending emails. The most common typing things that I do on a phone.
 
