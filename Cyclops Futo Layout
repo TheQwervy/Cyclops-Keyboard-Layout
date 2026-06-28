@@ -1,40 +1,66 @@
-name: Cyclops v1
-description: 09/09/2025 - u/theqwervy
+name: Cyclops v2
+description: 03/12/2025 - u/theqwervy
 bottomRowWidthMode: Identical
+numberRowMode: AlwaysDisabled
 overrideWidths:
   Regular: 0.107
 attributes:
   moreKeyMode: OnlyExplicit
 rows:
   - letters:
-    - [d]
+    - [b,'`','~']
     - [u,1]
     - [i,2]
     - [o,3]
     - type: base
       spec: '!icon/delete_key|!code/key_delete'
       moreKeys: ['!icon/action_undo|!code/action_undo','!icon/action_redo|!code/action_redo']
-      attributesto 
+      attributes:
         width: FunctionalKey
         style: Functional
-    - [s,'(','[','{','<']
-    - [r,')',']','}','>']
-    - [h,'=']
-    - [m,'+']
+    - [s,'@']
+    - [r,'#']
+    - [h,'*']
+    - [m,'%|%']
   - letters:
-    - [b]
-    - [f,4]
+    - [v,'!icon/action_select_all|!code/action_select_all']
+    - [p,4]
     - [e,5]
     - [a,6]
     - $space
-    - [n,'%|%']
-    - [t,'^']
-    - [y,'&']
-    - [p,'*']
+    - [n,'(','[','{','<']
+    - [t,')',']','}','>']
+    - [f,'=']
+    - [y,'+']
     splittable: false
   - letters:
-    - [x]
-    - [v,7]
+    - [x,'!icon/action_settings|!code/action_settings']
+    - [g,7]
+    - [d,8]
+    - [c,9]
+    - $shift
+    - [l,'!']
+    - [w,'$']
+    - [k,'^']
+    - [j,'\','|']
+  - bottom:
+    - $action
+    - [q,0]
+    - ["'",'"']
+    - [',','/']
+    - type: base
+      spec: '!icon/enter_key|!code/key_enter'
+      moreKeys: ['!icon/action_copy|!code/action_copy','!icon/action_paste|!code/action_paste','!icon/action_cut|!code/action_cut','!icon/action_clipboard_history|!code/action_clipboard_history']
+      attributes:
+        width: FunctionalKey
+        style: Functional
+    - ['.','?']
+    - ['-','_','—','–']
+    - [z,'&']
+    - [':',';']
+    splittable: true
+    attributes:
+      moreKeyMode: OnlyExplicit    - [v,7]
     - [g,8]
     - [l,9]
     - type: base
