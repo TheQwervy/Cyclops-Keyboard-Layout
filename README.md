@@ -1,5 +1,5 @@
 # Cyclops Keyboard Layout
-A symmetrical, thumb-focused layout designed for phones.
+## A symmetrical, thumb-focused layout designed for phones.
 <img width="1080" height="476" alt="Screenshot_20260628_201313_One UI Home" src="https://github.com/user-attachments/assets/61254859-0ac5-4940-87ae-59e69c9a4d11" />
 
 ### What?
@@ -33,3 +33,9 @@ I compared it with modified versions of the QWERTY and Workman layouts to simula
 I have not added the results because I am not satisfied with my own testing criteria nor my optimisations of this layout.
 
 [Original post on reddit](https://www.reddit.com/r/KeyboardLayouts/comments/1ncf0nw/wip_cyclops_an_alternative_layout_for_phones/)
+
+---
+
+Changes I want to make:
+- Correect splitting behaviour of the spacebar in futo
+- Enter key changing shape in text fields in futo
