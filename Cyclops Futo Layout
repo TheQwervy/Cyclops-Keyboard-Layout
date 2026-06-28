@@ -1,0 +1,66 @@
+name: Cyclops v1
+description: 09/09/2025 - u/theqwervy
+bottomRowWidthMode: Identical
+overrideWidths:
+  Regular: 0.107
+attributes:
+  moreKeyMode: OnlyExplicit
+rows:
+  - letters:
+    - [d]
+    - [u,1]
+    - [i,2]
+    - [o,3]
+    - type: base
+      spec: '!icon/delete_key|!code/key_delete'
+      moreKeys: ['!icon/action_undo|!code/action_undo','!icon/action_redo|!code/action_redo']
+      attributesto 
+        width: FunctionalKey
+        style: Functional
+    - [s,'(','[','{','<']
+    - [r,')',']','}','>']
+    - [h,'=']
+    - [m,'+']
+  - letters:
+    - [b]
+    - [f,4]
+    - [e,5]
+    - [a,6]
+    - $space
+    - [n,'%|%']
+    - [t,'^']
+    - [y,'&']
+    - [p,'*']
+    splittable: false
+  - letters:
+    - [x]
+    - [v,7]
+    - [g,8]
+    - [l,9]
+    - type: base
+      spec: '!icon/shift_key|!code/key_shift'
+      attributes:
+        width: FunctionalKey
+        style: Functional
+    - [c,'!']
+    - [w,'@']
+    - [k,'#']
+    - [j,'$']
+  - bottom:
+    - type: contextual
+      fallbackKey: "!icon/action_emoji|!code/action_emoji"
+    - ['-','_']
+    - [q,0]
+    - [',','/']
+    - type: base
+      spec: '!icon/enter_key|!code/key_enter'
+      attributes:
+        width: FunctionalKey
+        style: Functional      
+    - ['.','?']
+    - [z,'!icon/action_settings|!code/action_settings']
+    - ["'",'"']
+    - [';',':']
+    splittable: true
+    attributes:
+      moreKeyMode: OnlyExplicit
