@@ -1,5 +1,6 @@
 # Cyclops Keyboard Layout
 A symmetrical, thumb-focused layout designed for phones.
+<img width="1080" height="476" alt="Screenshot_20260628_201313_One UI Home" src="https://github.com/user-attachments/assets/61254859-0ac5-4940-87ae-59e69c9a4d11" />
 
 ### What?
 
