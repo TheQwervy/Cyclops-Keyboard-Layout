@@ -1,5 +1,5 @@
-name: Cyclops v2
-description: 03/12/2025 - u/theqwervy
+name: Cyclops v3
+description: 06/28/2026 - u/theqwervy
 bottomRowWidthMode: Identical
 numberRowMode: AlwaysDisabled
 overrideWidths:
@@ -8,7 +8,7 @@ attributes:
   moreKeyMode: OnlyExplicit
 rows:
   - letters:
-    - [b,'`','~']
+    - [b,0]
     - [u,1]
     - [i,2]
     - [o,3]
@@ -18,75 +18,105 @@ rows:
       attributes:
         width: FunctionalKey
         style: Functional
-    - [s,'@']
-    - [r,'#']
-    - [h,'*']
+    - [s,'#']
+    - [r,'*']
+    - [h,'@']
     - [m,'%|%']
   - letters:
-    - [v,'!icon/action_select_all|!code/action_select_all']
+    - [v,'`','~']
     - [p,4]
     - [e,5]
     - [a,6]
     - $space
     - [n,'(','[','{','<']
     - [t,')',']','}','>']
-    - [f,'=']
+    - [f,'=','≠']
     - [y,'+']
     splittable: false
   - letters:
-    - [x,'!icon/action_settings|!code/action_settings']
+    - [x,'!icon/numpad|!code/key_to_alpha_1_layout']
     - [g,7]
     - [d,8]
     - [c,9]
     - $shift
     - [l,'!']
-    - [w,'$']
+    - [w,'$','¥']
     - [k,'^']
     - [j,'\','|']
   - bottom:
     - $action
-    - [q,0]
+    - [q,'!icon/action_select_all|!code/action_select_all']
     - ["'",'"']
-    - [',','/']
+    - [',','?']
     - type: base
       spec: '!icon/enter_key|!code/key_enter'
       moreKeys: ['!icon/action_copy|!code/action_copy','!icon/action_paste|!code/action_paste','!icon/action_cut|!code/action_cut','!icon/action_clipboard_history|!code/action_clipboard_history']
       attributes:
         width: FunctionalKey
         style: Functional
-    - ['.','?']
+    - ['.','/']
     - ['-','_','—','–']
     - [z,'&']
     - [':',';']
     splittable: true
     attributes:
-      moreKeyMode: OnlyExplicit    - [v,7]
-    - [g,8]
-    - [l,9]
-    - type: base
-      spec: '!icon/shift_key|!code/key_shift'
-      attributes:
-        width: FunctionalKey
-        style: Functional
-    - [c,'!']
-    - [w,'@']
-    - [k,'#']
-    - [j,'$']
-  - bottom:
-    - type: contextual
-      fallbackKey: "!icon/action_emoji|!code/action_emoji"
-    - ['-','_']
-    - [q,0]
-    - [',','/']
-    - type: base
-      spec: '!icon/enter_key|!code/key_enter'
-      attributes:
-        width: FunctionalKey
-        style: Functional      
-    - ['.','?']
-    - [z,'!icon/action_settings|!code/action_settings']
-    - ["'",'"']
-    - [';',':']
-    splittable: true
+      moreKeyMode: OnlyExplicit
+subKeyboards:
+  Alphabet1:
     attributes:
       moreKeyMode: OnlyExplicit
+    rows:
+    - letters:
+      - [0]
+      - [1]
+      - [2]
+      - [3]
+      - type: base
+        spec: '!icon/delete_key|!code/key_delete'
+        moreKeys: ['!icon/action_undo|!code/action_undo','!icon/action_redo|!code/action_redo']
+        attributes:
+          width: FunctionalKey
+          style: Functional
+      - ['#']
+      - ['*']
+      - ['@']
+      - ['%|%']
+    - letters:
+      - ['`','~']
+      - [4]
+      - [5]
+      - [6]
+      - $space
+      - ['(','[','{','<']
+      - [')',']','}','>']
+      - ['=','≠']
+      - ['+']
+      splittable: false
+    - letters:
+      - ['!icon/numpad|!code/key_to_alpha_0_layout']
+      - [7]
+      - [8]
+      - [9]
+      - $shift
+      - ['!']
+      - ['$','¥']
+      - ['^']
+      - ['\','|']
+    - bottom:
+      - $action
+      - ['!icon/action_select_all|!code/action_select_all']
+      - ["'",'"']
+      - [',','?']
+      - type: base
+        spec: '!icon/enter_key|!code/key_enter'
+        moreKeys: ['!icon/action_copy|!code/action_copy','!icon/action_paste|!code/action_paste','!icon/action_cut|!code/action_cut','!icon/action_clipboard_history|!code/action_clipboard_history']
+        attributes:
+          width: FunctionalKey
+          style: Functional
+      - ['.','/']
+      - ['-','_','—','–']
+      - ['&']
+      - [':',';']
+      splittable: true
+      attributes:
+        moreKeyMode: OnlyExplicit
