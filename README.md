@@ -10,6 +10,7 @@ Cyclops is an ortholinear keyboard layout designed for typing with two thumbs on
 In addition, Cyclops also aims to increase the size of each key by reducing the amount of keys per row.
 
 A major characteristic of Cyclops is the centered function keys that are shared by each thumb, allowing better thumb alternations without the need to have large space bars or multiple shifts.
+
 ---
 
 ### Why?
