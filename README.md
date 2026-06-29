@@ -42,4 +42,5 @@ I have not added the results because I am not satisfied with my own testing crit
 
 ### Changes I want to make:
 - Correct splitting behaviour of the spacebar in futo
+- Swipe up, down, left and right on space bar for cursor movement (not possible in current version of futo)
 - Enter key changing shape in text fields in futo
