@@ -1,8 +1,10 @@
-### What:
+#### What:
 *Describe what you would like added.*
+
 ---
-### Why:
+#### Why:
 *A brief reason for why you want this.*
+
 ---
-### How;
+#### How:
 *If you have a specific way that you think would be best to implement, explain that here.*
