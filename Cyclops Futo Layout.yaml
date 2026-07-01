@@ -1,5 +1,5 @@
-name: Cyclops v3
-description: 06/28/2026 - u/theqwervy
+name: Cyclops v3.1
+description: u/theqwervy
 bottomRowWidthMode: Identical
 numberRowMode: AlwaysDisabled
 overrideWidths:
@@ -23,16 +23,18 @@ rows:
     - [h,'@']
     - [m,'%|%']
   - letters:
-    - [v,'`','~']
+    - ['v','`','~']
     - [p,4]
     - [e,5]
     - [a,6]
-    - $space
+    - type: space
+      attributes:
+        width: FunctionalKey
     - [n,'(','[','{','<']
     - [t,')',']','}','>']
     - [f,'=','≠']
     - [y,'+']
-    splittable: false
+    splittable: true
   - letters:
     - [x,'!icon/numpad|!code/key_to_alpha_1_layout']
     - [g,7]
@@ -86,7 +88,9 @@ subKeyboards:
       - [4]
       - [5]
       - [6]
-      - $space
+      - type: space
+        attributes:
+          width: FunctionalKey
       - ['(','[','{','<']
       - [')',']','}','>']
       - ['=','≠']
