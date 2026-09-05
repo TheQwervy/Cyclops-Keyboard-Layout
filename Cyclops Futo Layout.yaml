@@ -95,7 +95,7 @@ subKeyboards:
       - [')',']','}','>']
       - ['=','≠']
       - ['+']
-      splittable: false
+      splittable: true
     - letters:
       - ['!icon/numpad|!code/key_to_alpha_0_layout']
       - [7]
